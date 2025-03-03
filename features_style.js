@@ -51,9 +51,9 @@ Array.from(document.getElementsByClassName('bright')).forEach(function(element) 
 
 /* Chama as imagens da show case e as trocas a cada 3 segundos*/
 const imagens = [
-    'imagens/img_place_holder_1.png',
-    'imagens/img_place_holder_2.png',
-    'imagens/img_place_holder_3.png'
+    '/imagens/img_place_holder_1.png',
+    '/imagens/img_place_holder_2.png',
+    '/imagens/img_place_holder_3.png'
 ];
 
 let indice = 0;
