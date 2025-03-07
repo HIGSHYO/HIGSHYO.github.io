@@ -1,0 +1,113 @@
+/*Configuração de aparência geral*/
+body {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    margin: 0.5px;
+    align-items: center;
+    justify-items: center;
+}
+
+#icones {
+    height: 28%;
+    width: 28%;
+    margin-top: 500%;
+}
+
+/*Linha para modificação da "claridade do site"*/
+
+.bright{
+    cursor: pointer;
+    background-color: none;
+    position: relative;
+    left: 48%;
+    top: 10px;
+    height: 41px;
+    width: 41px;
+}
+
+#icon_bright {
+    height:40px;
+    width: 40px;
+}
+
+#whatsapp{
+    height: 28%;
+    width: 28%;
+    margin-top: 500%;
+}
+
+/*Configurações da barra lateral*/
+.sidebar {
+    height: 100%;
+    width: 150px;
+    border: 1px solid rgb(255, 255, 255);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-image: url("imagens/fundo_tinta.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    position: fixed;
+    left: -250px;
+    transition: left 0.3s;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.apresentacao {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+#arrow {
+    position: fixed;
+    top: 50%;
+    left: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: left 0.3s;
+    color: #000000;
+}
+
+/*Configurações da showcase*/
+.slides {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#imagem_showcase {
+    height: 250px;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+}
